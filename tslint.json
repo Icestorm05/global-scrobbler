@@ -1,0 +1,14 @@
+{
+    "extends": "tslint:recommended",
+    "linterOptions": {
+        "exclude": [
+            "**/*.json",
+            "**/serviceWorker.ts"
+        ]
+    },
+    "rules": {
+        "no-unused-expression": [true, "allow-new"],
+        "no-var-requires": false,
+        "no-console": false
+    }
+}
