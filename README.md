@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+
+Firstly, you will need [Node.js](https://nodejs.org/en/) installed.
+
+You will also need to get an API account on Last.fm [here](https://www.last.fm/api/account/create), and create a .env file in the root directory. The .env file must contain the following environment variables:   
+LAST_FM_API_KEY=`Enter your Last.fm API key here`
+
 ## Available Scripts
 
 In the project directory, you can run:
